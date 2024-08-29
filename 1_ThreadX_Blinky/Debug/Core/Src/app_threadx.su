@@ -1,0 +1,5 @@
+../Core/Src/app_threadx.c:69:6:App_ThreadX_Init	56	static
+../Core/Src/app_threadx.c:89:6:MX_ThreadX_Init	8	static
+../Core/Src/app_threadx.c:103:6:LD1_thread_entry	16	static
+../Core/Src/app_threadx.c:110:6:LD2_thread_entry	16	static
+../Core/Src/app_threadx.c:117:6:LD3_thread_entry	16	static
