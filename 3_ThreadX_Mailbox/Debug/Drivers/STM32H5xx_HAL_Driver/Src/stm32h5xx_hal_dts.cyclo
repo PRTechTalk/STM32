@@ -1,0 +1,17 @@
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:226:19:HAL_DTS_Init	8
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:335:19:HAL_DTS_DeInit	2
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:372:13:HAL_DTS_MspInit	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:387:13:HAL_DTS_MspDeInit	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:597:19:HAL_DTS_Start	6
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:650:19:HAL_DTS_Stop	4
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:685:19:HAL_DTS_Start_IT	7
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:749:19:HAL_DTS_Stop_IT	5
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:797:19:HAL_DTS_GetTemperature	8
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:874:6:HAL_DTS_IRQHandler	7
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:954:13:HAL_DTS_EndCallback	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:969:13:HAL_DTS_LowCallback	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:984:13:HAL_DTS_HighCallback	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:999:13:HAL_DTS_AsyncEndCallback	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:1014:13:HAL_DTS_AsyncLowCallback	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:1029:13:HAL_DTS_AsyncHighCallback	1
+../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c:1062:22:HAL_DTS_GetState	2

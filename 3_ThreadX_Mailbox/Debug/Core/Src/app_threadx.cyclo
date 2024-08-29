@@ -1,0 +1,7 @@
+../Core/Src/app_threadx.c:91:6:App_ThreadX_Init	1
+../Core/Src/app_threadx.c:120:6:MX_ThreadX_Init	1
+../Core/Src/app_threadx.c:134:6:LD1_thread_entry	1
+../Core/Src/app_threadx.c:141:6:LD2_thread_entry	1
+../Core/Src/app_threadx.c:148:6:LD3_thread_entry	2
+../Core/Src/app_threadx.c:177:6:temp_thread_entry	4
+../Core/Src/app_threadx.c:207:6:uart_thread_entry	2
