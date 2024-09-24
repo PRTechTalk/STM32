@@ -1,4 +1,4 @@
-# Welcome to PRTechTalk
+# Welcome to PR TechTalk
 
 Hello and welcome to PRTechTalk! This is the place where I share my thoughts and insights on technology.
 
