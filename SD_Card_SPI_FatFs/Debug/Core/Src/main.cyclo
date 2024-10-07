@@ -1,0 +1,7 @@
+../Core/Src/main.c:65:6:myprintf	1
+../Core/Src/main.c:86:5:main	8
+../Core/Src/main.c:215:6:SystemClock_Config	3
+../Core/Src/main.c:262:13:MX_SPI1_Init	2
+../Core/Src/main.c:302:13:MX_USART2_UART_Init	5
+../Core/Src/main.c:350:13:MX_GPIO_Init	1
+../Core/Src/main.c:382:6:Error_Handler	1
