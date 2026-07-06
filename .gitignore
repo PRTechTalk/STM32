@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Build folders
+build/
+Debug/
+Release/
+cmake-build-*/
+
+# Build output files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+*.su
+*.d
+*.gcno
+*.gcda
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# VS Code user/local files
+.vscode/*.log
+.vscode/ipch/
+
+# STM32CubeIDE / Eclipse generated metadata
+.metadata/
+.settings/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
