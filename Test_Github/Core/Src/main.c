@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32c0xx_hal.h"
+#include "stm32c0xx_hal_gpio.h"
+#include "stm32c0xx_nucleo.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -113,6 +116,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    HAL_GPIO_TogglePin(LED1, LED_GREEN);
+    HAL_Delay(250);
+    
 
     /* USER CODE END WHILE */
 
