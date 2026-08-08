@@ -1,0 +1,10 @@
+{
+  "source": {
+    "sourceType": "STM32CubeMX"
+  },
+  "board": "NUCLEO-U545RE-Q",
+  "device": "STM32U545RET6Q",
+  "core": "Cortex-M33",
+  "order": 0,
+  "toolchain": "GCC"
+}
