@@ -2,9 +2,9 @@
 
 Welcome to the STM32 project repository for the PR TechTalk YouTube channel.
 
-This repository contains STM32 example projects, experiments, and tutorial code used in my videos. 
-The projects are mainly developed with Visual Studio Code, STM32CubeMX, CMake, and the STM32 HAL.
-But olde projects are STM32CubeIDE and MX,
+This repository contains STM32 example projects, experiments, and tutorial code used in my videos.
+The newer projects are mainly developed with Visual Studio Code, STM32CubeMX, CMake, and the STM32 HAL.
+Older projects were created with STM32CubeIDE and STM32CubeMX.
 
 ## Projects
 
@@ -15,7 +15,9 @@ But olde projects are STM32CubeIDE and MX,
 | [3_ThreadX_Mailbox](./3_ThreadX_Mailbox/) | ThreadX example demonstrating message exchange with a mailbox. |
 | [DTS_Sensor](./DTS_Sensor/) | STM32 project for working with a digital temperature sensor. |
 | [G071_LCD_RTC](./G071_LCD_RTC/) | STM32G071 project using an LCD together with the real-time clock. |
+| [HW264_C031](./HW264_C031/) | NUCLEO-C031C6 project driving an HW-262 four-digit seven-segment display and showing ADC values. |
 | [SD_Card_SPI_FatFs](./SD_Card_SPI_FatFs/) | SD card project using SPI and the FatFs file system. |
+| [ST67_U545_MG](./ST67_U545_MG/) | NUCLEO-U545RE-Q project integrating the Mongoose embedded networking library. |
 
 More projects will be added as new tutorials are published.
 
@@ -53,7 +55,9 @@ STM32/
 ├── 3_ThreadX_Mailbox/
 ├── DTS_Sensor/
 ├── G071_LCD_RTC/
-└── SD_Card_SPI_FatFs/
+├── HW264_C031/
+├── SD_Card_SPI_FatFs/
+└── ST67_U545_MG/
 ```
 
 Build output and IDE-generated files are excluded using `.gitignore`.
