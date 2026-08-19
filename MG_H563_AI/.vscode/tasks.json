@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake: clean build",
+      "type": "shell",
+      "command": "cmake --preset debug && cmake --build --preset debug --clean-first",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Flash with STM32CubeProgrammer",
+      "type": "shell",
+      "command": "/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin/STM32_Programmer_CLI -c port=SWD -w build/debug/NUCLEO_H563ZI_WebControl.elf -hardRst",
+      "dependsOn": "CMake: clean build",
+      "problemMatcher": []
+    }
+  ]
+}

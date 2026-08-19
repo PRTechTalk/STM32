@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "stlinkgdbtarget",
+            "request": "launch",
+            "name": "STM32Cube: ST-LINK",
+            "origin": "snippet",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "CMake: clean build",
+            "runEntry": "main",
+            "imagesAndSymbols": [
+                {
+                    "imageFileName": "${workspaceFolder}/build/debug/NUCLEO_H563ZI_WebControl.elf"
+                }
+            ]
+        }
+    ]
+}

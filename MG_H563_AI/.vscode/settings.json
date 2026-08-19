@@ -1,0 +1,18 @@
+{
+  "cmake.useCMakePresets": "always",
+  "cmake.configureOnOpen": true,
+  "cmake.preferredGenerators": [
+    "Ninja"
+  ],
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "cmake.cmakePath": "cube-cmake",
+  "stm32cube-ide-clangd.path": "cube",
+  "stm32cube-ide-clangd.arguments": [
+    "starm-clangd",
+    "--query-driver=${env:CUBE_BUNDLE_PATH}/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc*",
+    "--query-driver=${env:CUBE_BUNDLE_PATH}/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-g++*"
+  ],
+  "cmake.configureArgs": [
+    "-DCMAKE_COMMAND=cube-cmake"
+  ]
+}

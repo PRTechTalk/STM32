@@ -1,0 +1,10 @@
+Create a complete STM32 project from scratch for the NUCLEO-H563ZI.
+
+Follow all instructions in AGENTS.md.
+Before implementation, ask me which optional Mongoose services and
+network features should be included.
+
+The application shall control the three onboard LEDs and display the
+User button state through an English web interface.
+
+Use the logo located in the Logotype directory.

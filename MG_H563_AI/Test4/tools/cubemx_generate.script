@@ -1,0 +1,3 @@
+config load "/Volumes/T7/MG_H563_AI/Test4/NUCLEO_H563ZI_WebControl.ioc"
+project generate
+exit
