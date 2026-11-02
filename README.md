@@ -18,6 +18,7 @@ Older projects were created with STM32CubeIDE and STM32CubeMX.
 | [HW264_C031](./HW264_C031/) | NUCLEO-C031C6 project driving an HW-262 four-digit seven-segment display and showing ADC values. |
 | [SD_Card_SPI_FatFs](./SD_Card_SPI_FatFs/) | SD card project using SPI and the FatFs file system. |
 | [ST67_U545_MG](./ST67_U545_MG/) | NUCLEO-U545RE-Q project integrating the Mongoose embedded networking library. |
+| [UART_Printf](./UART_Printf/) | NUCLEO-C562RE example created with STM32CubeMX2 and CMake. Redirects `printf` to USART2 and toggles the PA5 LED once per second. |
 
 More projects will be added as new tutorials are published.
 
@@ -44,6 +45,8 @@ The projects may use some or all of the following tools:
 
 Different projects may require different STM32 boards, toolchain versions, or STM32Cube firmware packages.
 
+For [UART_Printf](./UART_Printf/), open `UART_Printf/UART_Printf_cmake/` to build and debug. The CubeMX2 configuration, `UART_Printf.ioc2`, is kept alongside that folder so its relative CMake export path remains valid. See the [project README](./UART_Printf/README.md) for build instructions.
+
 ## Repository Structure
 
 ```text
@@ -57,7 +60,11 @@ STM32/
 ├── G071_LCD_RTC/
 ├── HW264_C031/
 ├── SD_Card_SPI_FatFs/
-└── ST67_U545_MG/
+├── ST67_U545_MG/
+└── UART_Printf/
+    ├── README.md
+    ├── UART_Printf.ioc2
+    └── UART_Printf_cmake/
 ```
 
 Build output and IDE-generated files are excluded using `.gitignore`.
