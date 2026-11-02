@@ -1,0 +1,8 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "compileCommands": "${workspaceFolder}/build/debug_GCC_NUCLEO-C562RE/compile_commands.json"
+        }
+    ]
+}
